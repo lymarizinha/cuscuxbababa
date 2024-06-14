@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eafaf1; /* Verde claro para o fundo */
+}
+
+#header, #left-column, #center, #right-column, #footer {
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+    background-color: #c8e6c9; /* Verde claro para o cabeçalho */
+}
+
+#left-column, #right-column {
+    width: 30%;
+    float: left;
+    background-color: #b2dfdb; /* Verde claro para as laterais */
+}
+
+#center {
+    text-align: center;
+}
+
+#center img {
+    display: block;
+    margin: 0 auto;
+}
+
+#right-column {
+    width: 30%;
+    float: right;
+}
+
+#footer {
+    text-align: center;
+    clear: both;
+    background-color: #c8e6c9; /* Verde claro para o rodapé */
+}
